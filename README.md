@@ -1,4 +1,4 @@
-# python_iot_smart42
+# Python_iot_smart42
 
 
 You can find the videos here [1]
