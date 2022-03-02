@@ -1,0 +1,22 @@
+
+try:
+    wfile= open("iti.txt","w")  # mode write
+    'when you try to open file with mode write'
+    ''' if file not exists , it will try to create it'''
+    ''' if file exists , it will open the file for writing
+    starting from byte 0 
+    '''
+
+
+except Exception as e:
+    print(f"{e}")
+
+else:
+    print(wfile)
+    wfile.write("We need the break\n")
+    wfile.write("Ahmed needs the break\n")
+    wfile.write("Abanoub needs the break")
+    # accept list of items
+    wfile.writelines(["islam\n","Eman\n","Shrouq\n"])
+
+    wfile.close()
